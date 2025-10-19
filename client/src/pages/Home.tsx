@@ -4,7 +4,7 @@ import ProjectsGallery from '@/components/ProjectsGallery';
 import TechStack from '@/components/TechStack';
 import About from '@/components/About';
 import Footer from '@/components/Footer';
-import conexaoAbcImg from '@assets/stock_images/modern_website_scree_991fa800.jpg';
+import conexaoAbcImg from '@assets/stock_images/conexao-abc-logo.jpg';
 import absOficinaImg from '@assets/stock_images/abs-oficina-fachada.jpg';
 import petShopImg from '@assets/stock_images/pet_shop_animals_dog_42641b8a.jpg';
 
