@@ -6,7 +6,6 @@ import About from '@/components/About';
 import Footer from '@/components/Footer';
 import conexaoAbcImg from '@assets/stock_images/modern_website_scree_991fa800.jpg';
 import absOficinaImg from '@assets/stock_images/modern_website_scree_44fb8563.jpg';
-import assistenteSocialImg from '@assets/stock_images/social_worker_helpin_570300b8.jpg';
 import petShopImg from '@assets/stock_images/pet_shop_animals_dog_42641b8a.jpg';
 
 export default function Home() {
@@ -31,7 +30,7 @@ export default function Home() {
       id: 3,
       title: 'Assistente Social',
       description: 'Website profissional para assistente social',
-      imageUrl: assistenteSocialImg,
+      imageUrl: '/assistente-social/foto.jpg',
       url: '/assistente-social/index.html',
       technologies: ['HTML', 'CSS', 'JavaScript'],
     },
