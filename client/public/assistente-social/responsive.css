@@ -1,0 +1,293 @@
+@media (max-width: 425px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #32b68a;
+    width: 200px;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 0 0 0 10px;
+    align-items: center;
+
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+@media (max-width: 375px) {
+  .section-hero .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section-hero .column-left,
+  .section-hero .column-right {
+    flex: 1 1 100%;
+  }
+
+  .section-hero .title {
+    font-size: 2rem; /* menor que o original 3rem */
+    line-height: 1.2;
+  }
+
+  .section-hero .subtitle {
+    font-size: 1rem; /* menor que o original 1.25rem */
+  }
+
+  .section-hero .stats {
+    justify-content: center;
+  }
+
+  .section-hero .button-group {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 320px) {
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+  .brand{
+    font-size: 20px;
+    
+  }
+
+  .section-hero {
+    padding: 1rem;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column-left {
+    text-align: center;
+  }
+
+  .column-right {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+
+  .badge{
+    font-size: 10px;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+  }
+
+  .stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+   #servicos {
+    padding: 1rem;
+  }
+
+  .wrapper-servicos {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .cabecalho-servicos {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .lista-servicos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 10px;
+  }
+
+  .bloco-servico {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+
+  .bloco-servico h3 {
+    font-size: 1rem;
+  }
+
+  .bloco-servico p,
+  .bloco-servico li,
+  .preco-servico {
+    font-size: 0.9rem;
+  }
+
+  .etiqueta-destaque {
+    font-size: 0.7rem;
+    padding: 2px 6px;
+  }
+
+  .icone-servico {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  .bloco-servico ul {
+    padding-left: 20px;
+  }
+
+   #projetos {
+    padding: 1rem 0.5rem;
+  }
+
+  .wrapper-projetos {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0 10px;
+  }
+
+  .cabecalho-projetos {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .lista-projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .bloco-projeto {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+
+  .bloco-projeto img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .info-projeto {
+    padding: 0.8rem 1rem;
+  }
+
+  .info-projeto h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .info-projeto p {
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .impacto-projeto {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+
+  .impacto-projeto span {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .impacto-projeto i {
+    color: #666;
+  }
+   #palestras {
+    padding: 1rem 0.5rem;
+  }
+
+  .wrapper-depoimentos {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .cabecalho-depoimentos {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .cabecalho-depoimentos h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .cabecalho-depoimentos p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  .lista-depoimentos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .bloco-depoimento {
+    background: #fafafa;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+
+  .conteudo-depoimento p {
+    font-size: 0.9rem;
+    line-height: 1.3;
+    margin-bottom: 0.8rem;
+  }
+
+  .autor-depoimento {
+    font-size: 0.85rem;
+    color: #333;
+  }
+
+  .autor-depoimento strong {
+    display: block;
+    font-weight: 600;
+  }
+
+  .autor-depoimento span {
+    color: #666;
+  }
+
+
+}
