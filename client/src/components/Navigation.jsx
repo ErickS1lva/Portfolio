@@ -29,7 +29,7 @@ export default function Navigation() {
             className="neon text-xl sm:text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
             data-testid="text-portfolio-name"
           >
-            Ciber-log
+            Cyber-log
           </h2>
         </div>
 
