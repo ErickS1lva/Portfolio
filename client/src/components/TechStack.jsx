@@ -3,6 +3,7 @@ export default function TechStack() {
     { icon: "fab fa-html5", name: "HTML5", color: "text-orange-500" },
     { icon: "fab fa-css3-alt", name: "CSS3", color: "text-blue-500" },
     { icon: "fab fa-js", name: "JavaScript", color: "text-yellow-500" },
+    { icon: "fab fa-react", name: "React", color: "text-blue-500"}
   ];
 
   return (
