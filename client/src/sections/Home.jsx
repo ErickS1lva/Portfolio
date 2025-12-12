@@ -32,7 +32,7 @@ export default function Home() {
       title: "Marlinda Nascimento",
       description: "Website profissional para assistente social",
       imageUrl: marlindaImg,
-      url: null,
+      url: "https://assistente-social-ebon.vercel.app/",
       technologies: ["HTML", "CSS", "JavaScript"],
     },
     {
@@ -40,7 +40,7 @@ export default function Home() {
       title: "Pet Shop",
       description: "E-commerce para loja de produtos pet",
       imageUrl: petShopImg,
-      url: null,
+      url: "https://pet-shop-three-nu.vercel.app/",
       technologies: ["HTML", "CSS", "JavaScript"],
     },
   ];
