@@ -8,7 +8,7 @@ export default function Footer() {
     {
       icon: "fab fa-instagram",
       label: "Instagram",
-      url: "https://instagram.com/erickdasilva.dev",
+      url: "https://instagram.com/cyber_log_",
     },
   ];
 
