@@ -7,7 +7,7 @@ import Footer from "@components/Footer";
 import conexaoAbcImg from "@assets/conexao-abc-logo.jpg";
 import absOficinaImg from "@assets/abs-oficina-fachada.jpg";
 import petShopImg from "@assets/pet_shop_animals_dog_42641b8a.jpg";
-import euceniImg from "@assets/euceni-foto.jpg";
+import marlindaImg from "@assets/marlinda-foto.jpg";
 
 export default function Home() {
   const projects = [
@@ -29,9 +29,9 @@ export default function Home() {
     },
     {
       id: 3,
-      title: "Euceni Nascimento",
+      title: "Marlinda Nascimento",
       description: "Website profissional para assistente social",
-      imageUrl: euceniImg,
+      imageUrl: marlindaImg,
       url: null,
       technologies: ["HTML", "CSS", "JavaScript"],
     },
