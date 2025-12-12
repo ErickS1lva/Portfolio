@@ -22,11 +22,11 @@ export default function Navigation() {
           <img
             src={logo}
             alt="logo"
-            className="h-10 w-10 sm:h-12 sm:w-12 object-contain"
+            className="h-10 w-10 sm:h-12 sm:w-12 object-contain logo-neon"
           />
 
           <h2
-            className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
+            className="neon text-xl sm:text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
             data-testid="text-portfolio-name"
           >
             Ciber-log

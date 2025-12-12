@@ -18,7 +18,7 @@ export default function ProjectsGallery({ projects }) {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 ">
         {projects.map((project) => (
           <ProjectCard
             key={project.id}

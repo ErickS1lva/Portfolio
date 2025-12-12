@@ -19,7 +19,7 @@ export default function TechStack() {
               className="flex flex-col items-center gap-3 group"
             >
               <div
-                className="w-16 h-16 sm:w-20 sm:h-20 bg-card border border-border rounded-2xl flex items-center justify-center text-3xl sm:text-4xl transition-all hover:scale-110 hover:shadow-lg hover:border-primary/50"
+                className="neon-hover w-16 h-16 sm:w-20 sm:h-20 bg-card border border-border rounded-2xl flex items-center justify-center text-3xl sm:text-4xl transition-all hover:scale-110 hover:shadow-lg hover:border-primary/50"
                 title={tech.name}
                 data-testid={`icon-tech-${tech.name.toLowerCase()}`}
               >

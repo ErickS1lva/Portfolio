@@ -8,7 +8,7 @@ export default function ProjectCard({ title, description, imageUrl, url, technol
   return (
     <div
       onClick={handleClick}
-      className={`group relative overflow-hidden rounded-xl sm:rounded-2xl border border-border/50 transition-all duration-500 ${
+      className={`neon-hover group relative overflow-hidden rounded-xl sm:rounded-2xl border border-border/50 transition-all duration-500 ${
         url ? "cursor-pointer hover:-translate-y-2 hover:shadow-2xl hover:border-primary/50" : ""
       }`}
       role={url ? "link" : "article"}
