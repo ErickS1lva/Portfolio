@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useTheme } from "@/App";
+import logo from "@/assets/logo.png"
 
 export default function Navigation() {
   const { toggleMode, mode } = useTheme();
@@ -16,13 +17,22 @@ export default function Navigation() {
   return (
     <nav className="sticky top-0 z-50 backdrop-blur-md bg-background/80 border-b border-border/40">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 sm:px-6 py-4">
-        <h2 
-          className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
-          data-testid="text-portfolio-name"
-        >
-          Erick da Silva
-        </h2>
-        
+      
+        <div className="flex items-center gap-2">
+          <img
+            src={logo}
+            alt="logo"
+            className="h-10 w-10 sm:h-12 sm:w-12 object-contain"
+          />
+
+          <h2
+            className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
+            data-testid="text-portfolio-name"
+          >
+            Ciber-log
+          </h2>
+        </div>
+
         <ul className="hidden md:flex gap-2 items-center">
           <li>
             <button
@@ -71,6 +81,7 @@ export default function Navigation() {
               <i className="fas fa-sun" />
             )}
           </button>
+
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="p-2 rounded-lg border border-border hover:bg-muted transition-colors"
@@ -86,7 +97,7 @@ export default function Navigation() {
         </div>
       </div>
 
-      <div 
+      <div
         className={`md:hidden border-t border-border/40 bg-background/95 backdrop-blur-md overflow-hidden transition-all duration-300 ${
           isMenuOpen ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
         }`}
